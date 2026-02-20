@@ -38,7 +38,7 @@
   /* Navbar */
   --ifm-navbar-background-color: rgba(250, 248, 244, 0.92);
   --ifm-navbar-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
-  --ifm-navbar-height: 9rem;
+  --ifm-navbar-height: 4.5rem;
   --ifm-navbar-item-padding-horizontal: 0.75rem;
   --ifm-navbar-link-color: #1a1a1a;
   --ifm-navbar-link-active-color: #0e6a2e;
@@ -108,13 +108,8 @@
   text-transform: uppercase;
 }
 
-.navbar__logo {
-  display: flex;
-  align-items: center;
-}
-
 .navbar__logo img {
-  height: 128px;
+  height: 2.5rem !important;
   width: auto;
 }
 
