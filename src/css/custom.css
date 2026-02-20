@@ -41,7 +41,7 @@
   --ifm-navbar-height: 3.5rem;
   --ifm-navbar-item-padding-horizontal: 0.75rem;
   --ifm-navbar-link-color: #1a1a1a;
-  --ifm-navbar-link-active-color: #16a34a;
+  --ifm-navbar-link-active-color: #0e6a2e;
 
   /* Footer */
   --ifm-footer-background-color: rgb(240, 237, 231);
@@ -50,9 +50,9 @@
   --ifm-footer-link-hover-color: #16a34a;
   --ifm-footer-title-color: #1a1a1a;
 
-  /* Links — ink by default, green on hover, no underline outside prose */
+  /* Links — ink by default, dark green on hover, no underline outside prose */
   --ifm-link-color: #1a1a1a;
-  --ifm-link-hover-color: #16a34a;
+  --ifm-link-hover-color: #0e6a2e;
   --ifm-link-decoration: none;
   --ifm-link-hover-decoration: none;
 
@@ -142,7 +142,7 @@
 }
 
 .table-of-contents__link--active {
-  color: #16a34a;
+  color: #0e6a2e;
   font-weight: 500;
 }
 
@@ -165,18 +165,8 @@
 }
 
 .markdown a:hover {
-  color: #16a34a;
-  text-decoration-color: rgba(22, 163, 74, 0.5);
-}
-
-[data-theme='dark'] .markdown a {
-  color: rgb(250, 248, 244);
-  text-decoration-color: rgba(255, 255, 255, 0.25);
-}
-
-[data-theme='dark'] .markdown a:hover {
-  color: #22c95e;
-  text-decoration-color: rgba(34, 201, 94, 0.5);
+  color: #0e6a2e;
+  text-decoration-color: rgba(14, 106, 46, 0.5);
 }
 
 .markdown code {

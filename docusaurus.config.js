@@ -46,9 +46,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/lifematon/life/tree/main/docs/docs/',
         },
@@ -80,7 +79,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {
-        respectPrefersColorScheme: true,
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
       navbar: {
         title: 'Lifematon',
@@ -116,7 +117,7 @@ const config = {
             items: [
               {
                 label: 'Documentation',
-                to: '/docs/intro',
+                to: '/intro',
               },
               {
                 label: 'Live Dashboard',
