@@ -38,7 +38,7 @@
   /* Navbar */
   --ifm-navbar-background-color: rgba(250, 248, 244, 0.92);
   --ifm-navbar-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
-  --ifm-navbar-height: 4.5rem;
+  --ifm-navbar-height: 3.5rem;
   --ifm-navbar-item-padding-horizontal: 0.75rem;
   --ifm-navbar-link-color: #1a1a1a;
   --ifm-navbar-link-active-color: #0e6a2e;
@@ -108,10 +108,6 @@
   text-transform: uppercase;
 }
 
-.navbar__logo img {
-  height: 2.5rem !important;
-  width: auto;
-}
 
 .navbar__title {
   font-family: 'EB Garamond', Georgia, serif;
