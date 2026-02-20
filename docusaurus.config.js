@@ -86,7 +86,8 @@ const config = {
         title: 'Lifematon',
         logo: {
           alt: 'Lifematon Logo',
-          src: 'img/logo.png',
+          src: 'img/logo-black.png',
+          srcDark: 'img/logo.png',
         },
         items: [
           {
