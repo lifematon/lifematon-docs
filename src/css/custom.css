@@ -108,6 +108,10 @@
   text-transform: uppercase;
 }
 
+.navbar__logo img {
+  height: 64px;
+}
+
 .navbar__title {
   font-family: 'EB Garamond', Georgia, serif;
   font-size: 1.25rem;
