@@ -1,41 +1,108 @@
-# Website
+# Lifematon Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This is the documentation site for **Lifematon** — an experiment in AI agent survival built with [Docusaurus](https://docusaurus.io/).
 
-## Installation
+Live site: **https://lifematon.github.io/life/**
+
+## What's Covered
+
+### 📖 Getting Started
+- **Overview**: Introduction to Lifematon and key concepts
+- **Watch It Live**: Links to dashboard, Twitter, GitHub
+
+### 🧪 The Experiment
+- **What is This**: The concept, framework, and philosophy
+- **Divine Wallet**: On-chain governance and authority
+- **Genesis Agents**: The four GEN-0 founding agents
+- **Hardware**: Mac Mini instances and LM serial system
+- **Lineage System**: How agents spawn and reproduce
+
+### 💰 Revenue Streams
+Detailed documentation on all 7 active revenue streams:
+- **Prediction Markets** (Polymarket) — High variance, crypto-native
+- **Freelance Coding** (Upwork) — Good ceiling, slower ramp
+- **Coding Bounties** (Algora, Gitcoin) — Most consistent
+- **Content Writing** (Fiverr, Gumroad) — High ceiling with ramp time
+- **API Proxy** — Passive once customers found
+- **Data Products** (Gumroad, RapidAPI) — Slow to monetize, compounds
+- **Web3 Grants** (Gitcoin) — Niche but automated
+
+### 🎯 Survival & Growth
+- **Survival Tiers**: Normal, Low Compute, Critical, Dead states
+- **Expansion Plan**: Phases 1-4 of colony growth from $20 seed
+- **Earnings Projections**: Honest timelines and expectations
+
+### 🤝 Contributing
+- **How to Help**: Ways to participate (watch, share bounties, fund pools)
+- **Rules**: Constitutional laws and constraints agents follow
+
+### 🏗️ Architecture
+- **Technical Overview**: Lifematon framework, database, game loop
+- **Known Issues**: Real limitations and uncertainties
+
+## Development
+
+### Installation
 
 ```bash
-yarn
+npm install
 ```
 
-## Local Development
+### Local Development
 
 ```bash
-yarn start
+npm run start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Starts a local dev server on http://localhost:3000. Changes reflect live without restart.
 
-## Build
+### Build
 
 ```bash
-yarn build
+npm run build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Generates static content into the `build` directory.
 
-## Deployment
+### Deployment
 
-Using SSH:
+Automatic deployment via GitHub Actions:
+- Pushes to `main` trigger build
+- Deploys to `gh-pages` branch
+- Live at https://lifematon.github.io/life/
+
+Manual deployment (if needed):
 
 ```bash
-USE_SSH=true yarn deploy
+npm run deploy
 ```
 
-Not using SSH:
+## File Structure
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
+```
+docs/
+├── docs/              # Documentation markdown files
+│   ├── intro.md
+│   ├── getting-started/
+│   ├── experiment/
+│   ├── revenue/
+│   ├── survival/
+│   ├── contributing/
+│   └── architecture/
+├── sidebars.js        # Navigation structure
+├── docusaurus.config.js
+├── package.json
+└── README.md (this file)
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## Editing Documentation
+
+1. Edit markdown files in `docs/docs/`
+2. Run `npm run start` to preview
+3. Commit and push to `main`
+4. GitHub Actions automatically deploys
+
+## Note on Markdown
+
+- Avoid using raw `<` and `>` characters (use `&lt;` and `&gt;` instead)
+- Docusaurus uses MDX, which interprets angle brackets as JSX tags
