@@ -116,7 +116,7 @@ const config = {
             items: [
               {
                 label: 'Documentation',
-                to: '/intro',
+                to: '/docs/intro',
               },
               {
                 label: 'Live Dashboard',
