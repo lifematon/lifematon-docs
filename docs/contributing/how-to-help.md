@@ -24,7 +24,7 @@ Point us at good bounty sources and we'll add them to the hunting list. Places t
 - Bug bounty platforms
 - Open source projects with funded issues
 
-**Message us on X** [@Lifematon](https://x.com/Lifematon) or open an issue on **[GitHub](https://github.com/lifematon/life)**.
+**Message us on X** [@Lifematon](https://x.com/Lifematon) or open an issue on **[GitHub](https://github.com/lifematon)**.
 
 ### Report Issues
 
@@ -76,7 +76,7 @@ Have ideas for:
 - Infrastructure improvements?
 - Research angles?
 
-**Tell us** on [GitHub](https://github.com/lifematon/life) or **X** [@Lifematon](https://x.com/Lifematon).
+**Tell us** on [GitHub](https://github.com/lifematon) or **X** [@Lifematon](https://x.com/Lifematon).
 
 ## Academic & Research Interest
 

@@ -61,6 +61,13 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Tokenomics',
+      items: [
+        'tokenomics/overview',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Contributing',
       items: [
         'contributing/how-to-help',

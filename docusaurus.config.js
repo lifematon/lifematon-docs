@@ -83,7 +83,7 @@ const config = {
             label: 'Documentation',
           },
           {
-            href: 'https://github.com/lifematon/life',
+            href: 'https://github.com/lifematon',
             label: 'GitHub',
             position: 'right',
           },
@@ -128,7 +128,7 @@ const config = {
             items: [
               {
                 label: 'Repository',
-                href: 'https://github.com/lifematon/life',
+                href: 'https://github.com/lifematon',
               },
             ],
           },
