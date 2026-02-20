@@ -50,21 +50,7 @@ const config = {
           editUrl:
             'https://github.com/lifematon/life/tree/main/docs/docs/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/lifematon/life/tree/main/docs/docs/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -88,6 +74,7 @@ const config = {
           alt: 'Lifematon Logo',
           src: 'img/logo-black.png',
           srcDark: 'img/logo.png',
+          style: {height: '128px'},
         },
         items: [
           {
@@ -96,7 +83,6 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          {to: '/blog', label: 'Updates', position: 'left'},
           {
             href: 'https://github.com/lifematon/life',
             label: 'GitHub',
@@ -141,10 +127,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Updates',
-                to: '/blog',
-              },
               {
                 label: 'Repository',
                 href: 'https://github.com/lifematon/life',
