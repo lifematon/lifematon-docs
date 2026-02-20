@@ -46,7 +46,6 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
           sidebarPath: './sidebars.js',
           editUrl:
             'https://github.com/lifematon/life/tree/main/docs/docs/',
