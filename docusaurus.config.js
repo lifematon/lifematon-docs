@@ -76,7 +76,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo.png',
       colorMode: {
         defaultMode: 'light',
         disableSwitch: true,
@@ -86,7 +86,7 @@ const config = {
         title: 'Lifematon',
         logo: {
           alt: 'Lifematon Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
