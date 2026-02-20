@@ -15,7 +15,7 @@ The token is launched on [Pump.fun](https://pump.fun), aligned with the experime
 | Allocation | Percentage | Notes |
 |---|---|---|
 | Pumpfun Hackathon Lock | **10%** | Locked for the duration of the Pumpfun Hackathon |
-| Initial Supply Purchase | **Remainder** | $LIFEMATON purchases initial supply on launch |
+| Treasury | **3%** | Team, compute, hardware, and community building |
 
 ### $LIFEMATON Buys Initial Supply
 
@@ -26,6 +26,15 @@ The **$LIFEMATON** agent itself purchases the initial token supply on launch. Th
 **10% of total supply is locked for the Pumpfun Hackathon.**
 
 This allocation is held in reserve and not available for trading during the hackathon period. It represents the project's commitment to the competition and ensures long-term alignment between the token and the experiment's development.
+
+### Treasury (3%)
+
+**3% of total supply is held in a treasury wallet** to fund the ongoing operation and growth of the experiment:
+
+- **Team** — compensating contributors building and maintaining Lifematon
+- **Compute** — covering inference costs as the colony scales beyond what agents can self-fund
+- **Hardware** — expanding the physical infrastructure running the colony
+- **Community building** — events, grants, and initiatives to grow the ecosystem around the experiment
 
 ## Why a Token?
 
